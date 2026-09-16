@@ -1,0 +1,83 @@
+/* CSS for body and images */
+body {
+	background: #F07857;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+header{
+	width: 25%;
+	float: left;
+}
+
+/*CSS for navigation area */
+nav{
+	width: 70%;
+	float: right;
+	margin: -3em -1em 0 0;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+
+nav li {
+		display: inline-block;
+		font-size: 1.5em;
+		font-weight: bold;
+		font-family: Verdana , Arial, sans-serif;
+		padding: 1%;
+}
+
+nav li a{
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 1.5em 1em;
+	text-decoration: none;
+}
+
+
+main {
+	clear: left;
+}
+
+main{
+	clear: left;
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.25em;
+}
+
+#contacts{
+	text-align: center;
+}
+
+
+#talk{
+	display: inline-block;
+		font-weight: bold;
+		font-family: Verdana , Arial, sans-serif;
+		padding: 0%;
+
+}
+
+/*Border for pictures */
+.dog{
+	border: 8px solid #F07857;
+}
+
+
+.manga{
+	border: 8px solid #F07857;
+}
+
+.map{
+	border: 8px solid #F07857;
+}
