@@ -1,0 +1,172 @@
+
+
+
+/* CSS for body and images */
+body {
+	background: #F07857;
+}
+
+h1 {
+	color: white;
+	font-size: 3.5em;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+header{
+	width: 25%;
+	float: left;
+}
+
+/*CSS for navigation area */
+nav{
+	padding: 5%;
+	margin-bottom: 1%;
+	background: linear-gradient(to right, #F07857, rgb(253, 132, 111)857);
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+
+nav li {
+		display: inline-block;
+		font-size: 1.5em;
+		font-weight: bold;
+		font-family: Verdana , Arial, sans-serif;
+		padding: 1%;
+}
+
+nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.5em 1em;
+	text-decoration: none;
+}
+
+.jslinks {
+     margin-top: -210px;
+    padding-right: 1410px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.jsprojects {
+	position: relative;
+    top: -170px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.fitnesslinks {
+	left: -100px;
+	width: 50%;
+	margin: 0;
+  	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav li:hover {
+	background-color: coral;
+}
+
+main{
+	clear: left;
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.25em;
+	font-family: "Roboto Slab", serif;
+}
+
+#contacts{
+	text-align: center;
+}
+
+/* pictures */
+
+.map{
+	border: 8px solid #F07857;
+	width: 95%;
+	
+}
+/* rounded corners */
+.round {
+	border-radius: 8px;
+	border: 8px solid #F07857;
+}
+
+.picture {
+  width: 100px;
+  height: 150px;
+}
+
+#contact{
+	text-align: center;
+	margin-top: -10px;
+}
+
+
+
+/* media query for desktop viewport */
+@media screen and (min-width: 1015px), print{
+	main {
+		clear: left;
+	}
+
+	.intro {
+		text-align: left;
+	}
+
+	.jslinks {
+    	margin-top: -210px;
+     	padding-right: 600px;
+     	text-align: right;
+     	list-style-type: none;
+}
+
+	.jsprojects {
+    	top: -165px;
+    	text-align: right;
+    	padding-right: 1000px;
+   	 	margin-bottom: 550px;
+}
+
+	
+}
+
+/* media query for tablet viewport */
+@media screen and (min-width: 630px), print{
+
+	.jslinks {
+    	margin-top: -210px;
+     	padding-right: 200px;
+     	text-align: right;
+     	list-style-type: none;
+}
+
+	.jsprojects {
+		position: relative;
+    	top: -165px;
+    	text-align: right;
+    	padding-right: 130px;
+   	 	margin-bottom: 50px;
+}
+
+}
+
+/* media query for print */
+@media print{
+	body{
+		background-color: #fff;
+		color: #000;
+	}
+}
