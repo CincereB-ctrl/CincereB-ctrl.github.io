@@ -1,0 +1,143 @@
+
+
+
+/* CSS for body and images */
+body {
+	background: #F07857;
+}
+
+h1 {
+	color: white;
+	font-size: 3.5em;
+}
+
+
+img {
+	height: 500px;
+	width: 600px;
+}
+
+
+header{
+	width: 25%;
+	float: left;
+}
+
+/*CSS for navigation area */
+nav{
+	padding: 5%;
+	margin-bottom: 1%;
+	background: linear-gradient(to right, #F07857, rgb(238, 136, 116));
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+
+nav li {
+		display: inline-block;
+		font-size: 1.5em;
+		font-weight: bold;
+		font-family: Verdana , Arial, sans-serif;
+		padding: 1%;
+}
+
+
+
+/* Show mobile class, hide tablet-desktop */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+
+nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.5em 1em;
+	text-decoration: none;
+}
+
+.fitnesslinks {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.jslinks {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+nav li:hover {
+	background-color: coral;
+}
+
+main{
+	clear: left;
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.25em;
+	font-family: "Roboto Slab", serif;
+}
+
+#contacts{
+	text-align: center;
+}
+
+/* pictures */
+.map{
+	border: 8px solid #F07857;
+	 box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* rounded corners */
+.round {
+	border-radius: 15px;
+	max-width: 600px;
+	max-height: 650px;
+	box-shadow: 4px 4px 10px 2px rgb(245, 161, 106);
+}
+
+#contact{
+	text-align: center;
+	margin-top: -10px;
+}
+
+
+
+/* media query for desktop viewport */
+@media screen and (min-width: 1015px), print{
+	main {
+		clear: left;
+	}
+
+	.intro {
+		text-align: left;
+	}
+	
+}
+
+/* media query for tablet viewport */
+@media screen and (min-width: 630px), print{
+
+.grid {
+		display: grid;
+		grid-gap: 20px;
+	}
+
+}
+
+/* media query for print */
+@media print{
+	body{
+		background-color: #fff;
+		color: #000;
+	}
+}
