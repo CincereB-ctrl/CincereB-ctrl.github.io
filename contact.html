@@ -32,9 +32,56 @@
 	<p>A college i'd be interested in going to (not my final option its still up for debate if i would really like to go).</p>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.8442761676292!2d-81.3451698239525!3d41.14704727133141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88313adaaeda6679%3A0xddd9f3901cbcc433!2sKent%20State%20University!5e1!3m2!1sen!2sus!4v1788887758374!5m2!1sen!2sus" width="600" height="450"allowfullscreen" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="map"></iframe>
 	</div>
-	<p></p>
-	
-	<p></p>
+	<div id="form">
+		<h2>Optional Form.</h2>
+		<form class="form-grid">
+			<fieldset>
+				<legend>Information</legend>
+				<label for="fName">Name: </label>
+				<input type="text" id="fName" required>
+				<label for="lName">UserName: </label>
+				<input type="text" id="lName" name="lName" required>
+				<label for="email">Email: </label>
+				<input type="email" id="email" name="email" required>
+				<label for="phone">Phone: </label>
+				<input type="tel" id="phone" name="phone" required></label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Game Preference</legend>
+				<p></p>
+				<label for="grpfit">
+					<input type="checkbox" id="grpfit" name="interest" value="Group Fitness">
+					Single-Player 
+				</label>
+				<label for="prtrain">
+					<input type="checkbox" id="prtrain" name="interest" value="Personal Training">
+					Multi-Player
+				</label>
+				<label for="nutr">
+					<input type="checkbox" id="nutr" name="inteest" value="Nutrition">
+					Both
+				</label>
+			</fieldset>
+
+
+			<fieldset>
+				<legend>Game Platforms</legend>
+				<label for="reference">What do you use to game?</label>
+				<select id="reference" name="reference">
+				<option value="ad">Steam</option>
+				<option value="friend">Playstation</option>
+				<option value="google">Xbox</option>
+				<option value="social">Epic Games</option>
+				<option value="other">Other</option>
+				</select>
+				<label for="questions">Any additional Info</label>
+				<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+			</fieldset>
+
+			<input type="submit" id="submit" value="Submit" class="btn">
+		</form>
+	</div>
 	</main>
 	
 	<footer>
