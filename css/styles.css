@@ -49,6 +49,10 @@ nav li {
 		padding: 1%;
 }
 
+video {
+	margin: 0 auto 4%;
+}
+
 
 
 /* Show mobile class, hide tablet-desktop */
